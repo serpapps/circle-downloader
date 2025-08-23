@@ -7,9 +7,11 @@ on:
         description: 'Path to the markdown file (.md) to create as a gist'
         required: true
         type: string
-
 jobs:
   create:
+    permissions:
+      contents: write    permissions:
+      contents: write  create:
     uses: devinschumacher/workflows/.github/workflows/create-gist.yml@main
     with:
       file_path: ${{ github.event.inputs.file_path }}
