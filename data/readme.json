@@ -1,0 +1,91 @@
+{
+  "id": 11,
+  "created_at": "2025-01-23T00:00:00Z",
+  "seo_title": "Circle Downloader - Free Download Tool",
+  "seo_description": "Download Circle community content including posts, videos, and course materials",
+  "product_page_url": "https://store.serp.co/product-details/product/circle-downloader",
+  "purchase_url": "https://serp.ly/circle-downloader",
+  "store_product_id": null,
+  "name": "Circle Downloader",
+  "tagline": "Download Circle community content including posts, videos, and course materials",
+  "featured_image": "images/featured.jpg",
+  "featured_image_gif": "images/featured.gif",
+  "github_repo_url": "https://github.com/serpapps/circle-downloader",
+  "github_repo_tags": [
+    "circle-downloader",
+    "downloader",
+    "automation",
+    "tools"
+  ],
+  "github_gist_url": null,
+  "features": [
+    "Course content extraction",
+    "Video lecture download",
+    "Community post backup",
+    "File attachment export",
+    "Member directory export",
+    "Analytics data"
+  ],
+  "chrome_web_store_url": null,
+  "description": "Circle Downloader is a powerful tool that helps you download circle community content including posts, videos, and course materials. Built with modern technologies, it provides a seamless experience for downloading and managing content.",
+  "product_video": null,
+  "related_videos": null,
+  "changelog": null,
+  "version_number": 1,
+  "updated_at": "2025-01-23T00:00:00Z",
+  "troubleshooting_instructions": [],
+  "installation_instructions": "1. Clone the repository: git clone https://github.com/serpapps/circle-downloader\n2. Install dependencies\n3. Configure settings\n4. Run the application",
+  "usage_instructions": [
+    "Open the application",
+    "Enter the URL of the content you want to download",
+    "Select your preferred quality and format",
+    "Click download to start the process",
+    "Files will be saved to your specified directory"
+  ],
+  "faqs": null,
+  "supported_operating_systems": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "status": "live",
+  "technologies": [
+    "Python",
+    "GraphQL",
+    "Selenium",
+    "Pandas"
+  ],
+  "serpco_product_page_link": "https://store.serp.co/product-details/product/circle-downloader",
+  "serpai_product_page_link": null,
+  "file_formats": null,
+  "categories": [
+    "Community Platforms",
+    "Course Tools",
+    "Social Media"
+  ],
+  "extraction_targets": null,
+  "content_medium": null,
+  "discovery_source": null,
+  "related_articles": null,
+  "related_gists": null,
+  "funding_links_github": [
+    "devinschumacher"
+  ],
+  "funding_links_liberapay": [
+    "serply"
+  ],
+  "funding_links_opencollective": [
+    "serply"
+  ],
+  "funding_links_custom": [
+    "https://serp.ly/circle-downloader"
+  ],
+  "keywords": [
+    "circle-downloader",
+    "circle",
+    "downloader",
+    "downloader",
+    "free",
+    "tool"
+  ]
+}
