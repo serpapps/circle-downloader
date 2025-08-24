@@ -2,9 +2,9 @@
 
 > Download Circle community content including posts, videos, and course materials
 
-![Circle Downloader](https://raw.githubusercontent.com/serpapps/circle-downloader/assets/images/featured.gif)
+![Circle Downloader](https://raw.githubusercontent.com/serpapps/circle-downloader/assets/images/circle-downloader.gif)
 
-Circle Downloader is a powerful tool that helps you download circle community content including posts, videos, and course materials. Built with modern technologies, it provides a seamless experience for downloading and managing content.
+Circle Downloader is a powerful tool that helps you download content from Circle instantly without ads or popups. Built with modern technologies, it provides a seamless experience for downloading and managing content.
 
 ## 🔗 Links
 
@@ -22,12 +22,12 @@ Circle Downloader is a powerful tool that helps you download circle community co
 
 ## Features
 
-- Course content extraction
-- Video lecture download
-- Community post backup
-- File attachment export
-- Member directory export
-- Analytics data
+- Stream-to-file conversion
+- HD quality downloads
+- Batch download support
+- Resume interrupted downloads
+- No watermarks
+- Content extraction
 
 ## Installation Instructions
 
@@ -47,11 +47,17 @@ Circle Downloader is a powerful tool that helps you download circle community co
 ## Technologies
 
 - Python
-- GraphQL
-- Selenium
-- Pandas
+- JavaScript
+- Node.js
+- Automation
 
 ## More Info
 
 - 📁 Repository [here](https://github.com/serpapps/circle-downloader)
+
+<details>
+<summary>Keywords</summary>
+
+circle downloader
+</details>
 
