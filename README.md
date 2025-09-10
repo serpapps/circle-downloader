@@ -19,6 +19,7 @@ Circle Downloader is a powerful tool that helps you download content from Circle
 - 💌 [Newsletter](https://serp.ly/@serp/email)
 - 🛒 [Shop](https://serp.ly/@serp/store)
 - 🎓 [Courses](https://serp.ly/@serp/courses)
+- 📚 [Loom Video Download Research](CONTRIBUTING.md)
 
 ## Features
 
