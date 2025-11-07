@@ -1,6 +1,6 @@
 # Circle Downloader
 
-> Download Circle community content including posts, videos, and course materials
+Download Circle course videos to save offline for convenient viewing and backups
 
 ![Circle Downloader](https://raw.githubusercontent.com/serpapps/circle-downloader/assets/images/circle-downloader.gif)
 
@@ -20,37 +20,6 @@ Circle Downloader is a powerful tool that helps you download content from Circle
 - 🛒 [Shop](https://serp.ly/@serp/store)
 - 🎓 [Courses](https://serp.ly/@serp/courses)
 
-
-## Features
-
-- Stream-to-file conversion
-- HD quality downloads
-- Batch download support
-- Resume interrupted downloads
-- No watermarks
-- Content extraction
-
-## Installation Instructions
-
-1. Clone the repository: git clone https://github.com/serpapps/circle-downloader
-2. Install dependencies
-3. Configure settings
-4. Run the application
-
-## Usage Instructions
-
-1. Open the application
-2. Enter the URL of the content you want to download
-3. Select your preferred quality and format
-4. Click download to start the process
-5. Files will be saved to your specified directory
-
-## Technologies
-
-- Python
-- JavaScript
-- Node.js
-- Automation
 
 ## Related
 
