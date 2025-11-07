@@ -1,6 +1,6 @@
-# Circle Downloader
+# Circle Downloader (Browser Extension for Chrome, Edge, Firefox, Opera, Brave)
 
-Download Circle course videos to save offline for convenient viewing and backups
+Download Circle course videos to save offline for convenient viewing and content backup
 
 ![Circle Downloader](https://raw.githubusercontent.com/serpapps/circle-downloader/assets/images/circle-downloader.gif)
 
