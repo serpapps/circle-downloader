@@ -52,9 +52,11 @@ Circle Downloader is a powerful tool that helps you download content from Circle
 - Node.js
 - Automation
 
-## More Info
+## Related
 
 - 📁 Repository [here](https://github.com/serpapps/circle-downloader)
+- [Circle.so Video Downloader Launch Post](https://gist.github.com/devinschumacher/ac07cda8a82236cc846ce90dc38c1c82)
+- [How to download circle.so videos for free](https://gist.github.com/devinschumacher/ac07cda8a82236cc846ce90dc38c1c82)
 
 <details>
 <summary>Keywords</summary>
