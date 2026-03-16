@@ -1,5 +1,7 @@
 # Circle Downloader (Browser Extension)
 
+> Browser extension that adds a download button to Circle.so community pages — detects videos from Circle's native player, Tella, Loom, Vimeo, YouTube, and Wistia, and saves them as MP4 for offline viewing.
+
 A browser extension that downloads videos from Circle.so communities, Tella.tv recordings, Loom videos, and embedded content from YouTube, Vimeo, and Wistia — directly to your computer as MP4 files. No external software needed. 3 free downloads included.
 
 - Save entire Circle classrooms and course content for unlimited offline access anytime, anywhere
