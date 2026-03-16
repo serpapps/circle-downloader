@@ -1,7 +1,3 @@
----
-title: Circle Downloader | Download Videos from Circle.so, Tella, Loom & More
----
-
 # Circle Downloader (Browser Extension)
 
 A browser extension that downloads videos from Circle.so communities, Tella.tv recordings, Loom videos, and embedded content from YouTube, Vimeo, and Wistia — directly to your computer as MP4 files. No external software needed. 3 free downloads included.
