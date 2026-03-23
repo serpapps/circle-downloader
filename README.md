@@ -13,20 +13,13 @@ A browser extension that downloads videos from Circle.so communities, Tella.tv r
 <img src="https://raw.githubusercontent.com/devinschumacher/uploads/refs/heads/main/images/how-to-download-circle-so-videos-for-free-hls-m3u8-streams.jpg" width="700px">
 </a>
 
-## 🔗 Links
+## Links
 
-- 🎁 Get it [here](https://serp.ly/circle-downloader)
-- 🔒 View [Permissions Justification](PERMISSIONS.md)
-- ❓ Check FAQs [here](https://github.com/orgs/serpapps/discussions/categories/faq)
-- 🐛 Report bugs [here](https://github.com/serpapps/circle-downloader/issues)
-- 🆕 Request features [here](https://github.com/serpapps/circle-downloader/issues)
-
-### Resources
-
-- 💬 [Community](https://serp.ly/@serp/community)
-- 💌 [Newsletter](https://serp.ly/@serp/email)
-- 🛒 [Shop](https://serp.ly/@serp/store)
-- 🎓 [Courses](https://serp.ly/@serp/courses)
+- :rocket: Get it here: [Circle Downloader](https://serp.ly/circle-downloader)
+- :new: Latest release: [GitHub Releases](https://github.com/serpapps/circle-downloader/releases/latest)
+- :question: Help center: [SERP Help](https://help.serp.co/en/)
+- :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/circle-downloader/issues)
+- :bulb: Request features: [Feature Requests](https://github.com/serpapps/circle-downloader/issues)
 
 ## Table of Contents
 
@@ -35,14 +28,12 @@ A browser extension that downloads videos from Circle.so communities, Tella.tv r
 - [How It Works](#how-it-works)
 - [Supported Platforms](#supported-platforms)
 - [Videos](#videos)
-- [Screenshots](#screenshots)
 - [Trial & Access](#trial--access)
 - [Installation Instructions](#installation-instructions)
 - [Downloading Member-Only Content](#downloading-member-only-content)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Troubleshooting](#troubleshooting)
-- [Permissions Justifications](#permissions-justifications)
-- [Legal & Compliance](#legal--compliance)
+- [License](#license)
 - [Related](#related)
 
 ## Why Circle Downloader
@@ -207,77 +198,9 @@ A: Yes. All video processing happens entirely in your browser. No video data is 
 4. Update your video player to the latest version
 5. Try re-downloading the video
 
-## Permissions Justifications
+## License
 
-### activeTab
-
-We use the `activeTab` permission so the extension can interact with the currently open Circle page when the user activates the extension. This is necessary to detect and process downloadable video content on the page.
-
-### storage
-
-Used to persist user preferences (quality settings, download location), download history, authentication tokens, and temporary video processing data across browser sessions.
-
-### tabs
-
-Necessary to query and interact with browser tabs to detect Circle community pages, inject content scripts for video detection, and manage the download queue across multiple tabs.
-
-### scripting
-
-Required to inject content scripts into Circle pages for video detection, extract video metadata from native uploads and embedded players, and communicate between the extension and web page content.
-
-### downloads
-
-Required to programmatically initiate and manage video file downloads to your computer. The extension needs to trigger downloads of processed Circle videos and track download progress for the queue system.
-
-### offscreen
-
-Used to create offscreen documents for complex video processing tasks (HLS/DASH parsing, stream merging) that require additional computational resources without blocking the main UI.
-
-### notifications
-
-Sends desktop notifications when downloads complete, encounter errors, or when queue status changes. Helps you track progress without keeping the popup open.
-
-### contextMenus
-
-Adds quick download options to Circle posts so you can save videos directly from the post context menu without opening the popup every time.
-
-### cookies
-
-Needed to access your Circle authentication cookies to download member-only or password-protected videos that require user authentication.
-
-### host_permissions
-
-Grants controlled access to Circle domains (circle.com, circle.so) and video CDN services (vimeo.com, youtube.com, wistia.com, loom.com, tella.tv, and their CDN partners) to extract video streams and metadata.
-
-## Privacy & Security
-
-We designed this extension with user privacy at the core:
-
-- **No data tracking** — no analytics, no personal information collection
-- **No data sharing** with third parties
-- **Minimal permissions** — only what's needed for core functionality
-- **Local storage only** — preferences, quality settings, and download history stay on your device
-- **On-device processing** — all video processing happens locally, never sent to external servers
-- **Transparent documentation** — full justification for every requested permission
-
-## Legal & Compliance
-
-### Terms of Service Compliance
-
-#### Circle.so Terms Key Points:
-- **Personal Use**: Downloads for personal, non-commercial use generally allowed for content you own or have permission to access
-- **Copyright**: Respect copyright and intellectual property rights
-- **Redistribution**: Prohibited without explicit permission from the copyright holder
-- **Commercial Use**: Requires proper licensing agreements with content creators
-- **Member-Only Content**: Access and download only within scope of your membership
-
-#### Best Practices:
-- Only download content you created, own, or have explicit permission from the rights holder to access
-- Respect platform terms of service and community guidelines
-- Use reasonable download speeds and respect rate limits
-- Respect creator intellectual property — downloaded content is for personal use unless you have broader rights
-
-**DISCLAIMER:** We are not attorneys and cannot provide legal advice. Laws vary significantly by country, platform, and content type. Please consult a qualified legal professional about your specific situation.
+This repository is distributed under the proprietary SERP Apps license in the [LICENSE](LICENSE) file. Review that file before copying, modifying, or redistributing any part of this project.
 
 ## About
 
