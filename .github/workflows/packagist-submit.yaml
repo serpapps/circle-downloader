@@ -1,0 +1,51 @@
+name: Submit packages to Packagist
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_urls:
+        description: |
+          JSON array of GitHub repo URLs to submit, e.g.
+          ["https://github.com/org/repo1","https://github.com/org/repo2"]
+          Leave blank to use the default list in the test file.
+        required: false
+        type: string
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Write Packagist session to file
+        run: echo '${{ secrets.PACKAGIST_COOKIES }}' > /tmp/packagist-auth.json
+
+      - name: Run Packagist submission tests
+        env:
+          PLAYWRIGHT_STORAGE_STATE: /tmp/packagist-auth.json
+          REPO_URLS_JSON: ${{ github.event.inputs.repo_urls }}
+        run: npm test
+
+      - name: Upload results artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: packagist-submitted
+          path: |
+            packagist-submitted.json
+            packagist-results.json
+          if-no-files-found: ignore
