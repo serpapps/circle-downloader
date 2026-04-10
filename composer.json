@@ -1,0 +1,24 @@
+{
+    "name": "serpapps/circle-downloader",
+    "type": "library",
+    "description": "Download Circle course videos to save offline for convenient viewing and content backup",
+    "keywords": [
+        "circle-downloader",
+        "circle-so-video-downloader",
+        "circle-video-downloader",
+        "browser-extension",
+        "course-video-downloader"
+    ],
+    "homepage": "https://github.com/serpapps/circle-downloader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SERP Apps",
+            "homepage": "https://github.com/serpapps",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
