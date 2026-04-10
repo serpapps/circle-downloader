@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "buildTag": "latest",
+  "description": "Circle Downloader preserves Circle community content, coaching lessons, and embedded video platforms before they expire or disappear. It can detect Circle-native uploads as well as common embedded providers and save authorized content as MP4 files for offline access.",
+  "input": "./INPUT_SCHEMA.json",
+  "name": "circle-downloader",
+  "readme": "../README.md",
+  "title": "Circle Downloader",
+  "version": "0.0"
+}
