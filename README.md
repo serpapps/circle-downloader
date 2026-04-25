@@ -9,7 +9,7 @@ A browser extension that downloads videos from Circle.so communities, Tella.tv r
 - Create a personal library of video lectures, coaching calls, and resources that you own forever
 - Never lose access to paid courses again — backup everything before platforms shut down or remove content
 
-<a href="https://www.youtube.com/watch?v=_8XKKHj0eLs" target="_blank">
+<a href="https://www.youtube.com/watch?v=EcEWGobXAQU" target="_blank">
 <img src="https://raw.githubusercontent.com/devinschumacher/uploads/refs/heads/main/images/how-to-download-circle-so-videos-for-free-hls-m3u8-streams.jpg" width="700px">
 </a>
 
@@ -86,7 +86,7 @@ Chrome, Edge, Brave, Opera, Firefox, Whale, and Yandex — on Windows, macOS, an
 
 ## Videos
 
-<a href="https://www.youtube.com/watch?v=_8XKKHj0eLs" target="_blank">
+<a href="https://www.youtube.com/watch?v=EcEWGobXAQU" target="_blank">
 <img src="https://raw.githubusercontent.com/devinschumacher/uploads/refs/heads/main/images/how-to-download-circle-so-videos-for-free-hls-m3u8-streams.jpg" width="700px">
 </a>
 
