@@ -1,4 +1,4 @@
-# Circle Downloader (Browser Extension)
+# Circle Video Downloader (Browser Extension)
 
 > Browser extension that adds a download button to Circle.so community pages — detects videos from Circle's native player, Tella, Loom, Vimeo, YouTube, and Wistia, and saves them as MP4 for offline viewing.
 
@@ -15,7 +15,7 @@ A browser extension that downloads videos from Circle.so communities, Tella.tv r
 
 ## Links
 
-- :rocket: Get it here: [Circle Downloader](https://serp.ly/circle-downloader)
+- :rocket: Get it here: [Circle Downloader](https://serp.ly/circle-downloader?via=github)
 - :new: Latest release: [GitHub Releases](https://github.com/serpapps/circle-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/circle-downloader/issues)
