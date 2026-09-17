@@ -1,0 +1,27 @@
+/* Overlay download button styling applied on any page where content scripts run */
+/* Ensures JS-injected buttons inherit consistent brand styling without modifying detector JS */
+
+[data-skool-dl-btn] button {
+  background: var(--brand-accent, #506CF0) !important;
+  color: var(--text-primary, #fff) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35) !important;
+  backdrop-filter: blur(2px) !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+[data-skool-dl-btn] button:hover { background: var(--brand-accent-hover, #162DAD) !important; }
+[data-skool-dl-btn] button:active { transform: translateY(0) !important; box-shadow: 0 1px 4px rgba(0,0,0,0.3) !important; }
+
+/* Guard against duplicated containers stacking */
+div[data-skool-dl-btn] + div[data-skool-dl-btn] { display: none !important; }
+
+/* High contrast mode (if user forces prefers-contrast) */
+@media (prefers-contrast: more) {
+  [data-skool-dl-btn] button { box-shadow: none !important; outline: 1px solid var(--brand-accent-hover,#162DAD) !important; }
+}

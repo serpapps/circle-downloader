@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(node:*)",
+      "Bash(mkdir:*)",
+      "Read(/C:\\^  async downloadHLSSegments/**)",
+      "Bash(sed:*)"
+    ],
+    "deny": []
+  }
+}
