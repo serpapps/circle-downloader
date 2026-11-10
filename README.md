@@ -2,7 +2,7 @@
 
 > Browser extension that adds a download button to Circle.so community pages — detects videos from Circle's native player, Tella, Loom, Vimeo, YouTube, and Wistia, and saves them as MP4 for offline viewing.
 
-A browser extension that downloads videos from Circle.so communities, Tella.tv recordings, Loom videos, and embedded content from YouTube, Vimeo, and Wistia — directly to your computer as MP4 files. No external software needed. 3 free downloads included.
+A browser extension that downloads videos from Circle.so communities, Tella.tv recordings, Loom videos, and embedded content from YouTube, Vimeo, and Wistia — directly to your computer as MP4 files. No external software needed. 3 free downloads a week included.
 
 - Save entire Circle classrooms and course content for unlimited offline access anytime, anywhere
 - Protect your educational investment by downloading all materials before courses expire or disappear
@@ -51,9 +51,7 @@ Circle Downloader handles all of them in one extension — detecting videos acro
 - **Concurrent downloads** — up to 3 simultaneous downloads with real-time progress, speed, and cancel
 - **Batch download queue** — add multiple lessons and process them automatically
 - **YouTube URL display** — one-click yt-dlp copy for Mac and Windows
-- **Right-click context menu** — quick downloads without opening the popup
 - **Auto-organized storage** — saves to a Circle Downloader subfolder in Downloads
-- **Desktop notifications** — alerts when downloads complete or fail
 - **Original quality preserved** — no re-encoding, no watermarks, no quality loss
 - **Privacy-first** — all processing on-device, zero tracking, no data sent to external servers
 - **100% privacy-friendly** — no tracking or data collection
@@ -70,7 +68,7 @@ Circle Downloader handles all of them in one extension — detecting videos acro
 
 ### Supported Browsers
 
-Chrome, Edge, Brave, Opera, Firefox, Whale, and Yandex — on Windows, macOS, and Linux.
+Chrome, Edge, Brave, Opera, Whale, and Yandex — on Windows, macOS, and Linux.
 
 ### Supported Formats
 
@@ -92,9 +90,9 @@ Chrome, Edge, Brave, Opera, Firefox, Whale, and Yandex — on Windows, macOS, an
 
 ## Trial & Access
 
-- Includes **3 free downloads** after email sign-in (OTP verification)
+- Includes **3 free downloads a week** after email sign-in (OTP verification)
 - No credit card required for the free trial
-- Unlimited downloads available with a license
+- Unlimited downloads available with a subscription
 
 ## Installation Instructions
 
@@ -157,7 +155,7 @@ A: Press play on the video first. The extension needs the stream to start before
 
 ### Q: Is there a free trial?
 
-A: Yes — 3 free downloads after email sign-in. No credit card required. Unlimited downloads available with a license.
+A: Yes — 3 free downloads a week after email sign-in. No credit card required. Unlimited downloads available with a subscription.
 
 ### Q: Is my data safe?
 
